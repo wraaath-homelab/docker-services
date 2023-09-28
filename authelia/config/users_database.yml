@@ -10,7 +10,7 @@ users:
   wraaath:
     displayname: "Mads"
     # Password is Authelia
-    password: ${USER_PASS}
+    password: <argon2_hashed_pass>
     email: mads@wraaath.com
     groups:
       - admins
