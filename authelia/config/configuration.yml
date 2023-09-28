@@ -62,7 +62,7 @@ regulation:
   ban_time: 300
 
 storage:
-  encryption_key: ${ENCRYPTION_KEY} # Now required
+  encryption_key: 6tCJ2vQ@pzihEMny#gwa1 # Now required
   local:
     path: /config/db.sqlite3
 
