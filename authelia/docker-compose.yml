@@ -7,7 +7,7 @@ services:
     volumes:
       - ./config:/config
     networks:
-     - proxy
+      - proxy
     labels:
       - 'traefik.enable=true'
       - 'traefik.http.routers.authelia.rule=Host(`auth.l.wraaath.com`)'
