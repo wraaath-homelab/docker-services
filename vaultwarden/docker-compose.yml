@@ -15,7 +15,7 @@ services:
       - TZ=Europe/Copenhagen
       - LOGIN_RATELIMIT_MAX_BURST=10
       - LOGIN_RATELIMIT_SECONDS=60
-      - DOMAIN=vaultwarden.wraaath.com
+      - DOMAIN=https://vaultwarden.wraaath.com
       - INVITATIONS_ALLOWED=true
       - ADMIN_TOKEN=${ADMIN_TOKEN}
       - EMERGENCY_ACCESS_ALLOWED=true
