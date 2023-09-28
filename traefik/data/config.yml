@@ -1,6 +1,7 @@
 http:
   routers:
     uptimekuma:
+      entryPoints:
         - "https"
       rule: "Host(`uptime.wraaath.com`)"
       middlewares:
