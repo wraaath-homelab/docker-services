@@ -1,4 +1,4 @@
-Do a `docker network create proxy`
+Do a `docker network create proxy` \
 Be sure to `chmod 600 acme.json`
 
 Creating a password for .env file:
