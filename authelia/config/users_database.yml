@@ -9,7 +9,6 @@
 users:
   wraaath:
     displayname: "Mads"
-    # Password is Authelia
     password: <argon2_hashed_pass>
     email: mads@wraaath.com
     groups:
