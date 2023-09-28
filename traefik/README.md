@@ -8,3 +8,7 @@ sudo apt install apache2-utils
 
 echo $(htpasswd -nb "<USER>" "<PASSWORD>") | sed -e s/\\$/\\$\\$/g
 ```
+or use:
+```bash
+echo $(htpasswd -nB USER) | sed -e s/\\$/\\$\\$/g
+```
