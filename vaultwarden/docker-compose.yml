@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  vaultwarden:
+    restart: unless-stopped
+    container_name: vaultwarden
+    image: vaultwarden/server:1.28.1-alpine
+    volumes:
+      - ./data/:/data/
+    ports:
+      - 8062:80
+    environment:
+      - LOGIN_RATELIMIT_MAX_BURST=10
+      - LOGIN_RATELIMIT_SECONDS=60
+      - DOMAIN=vaultwarden.wraaath.com
+      - INVITATIONS_ALLOWED=true
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
+      - EMERGENCY_ACCESS_ALLOWED=true
+      - SENDS_ALLOWED=true
+      - WEB_VAULT_ENABLED=true
