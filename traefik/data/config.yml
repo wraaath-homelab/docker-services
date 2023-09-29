@@ -3,7 +3,7 @@ http:
     uptimekuma:
       entryPoints:
         - "https"
-      rule: "Host(`uptime.l.wraaath.com`)"
+      rule: "Host(`uptime.wraaath.com`)"
       middlewares:
         - default-headers
         - https-redirectscheme
