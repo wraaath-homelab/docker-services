@@ -4,7 +4,7 @@ services:
   vaultwarden:
     restart: unless-stopped
     container_name: vaultwarden
-    image: vaultwarden/server:1.28.1-alpine
+    image: vaultwarden/server:1.29.2-alpine
     volumes:
       - ./data/:/data/
     networks:
