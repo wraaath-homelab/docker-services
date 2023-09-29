@@ -21,6 +21,7 @@ http:
 
 #endregion
 #region services
+  services:
     uptimekuma:
       loadBalancer:
         servers:
