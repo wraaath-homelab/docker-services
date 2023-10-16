@@ -8,6 +8,19 @@ This mf is very much a work in progress, I am still working on most stuff here.
 ## 💢 Why Docker?
 Well it's pretty easy to use. I am tired of permission issues and version mismatches, and really appreciate the unification that Docker creates with logs and statuses.
 
+## 📚 Sections
+* [Authelia](authelia/)
+* [Home Assistant](homeassistant/)
+* [JDownloader 2](jdownloader/)
+* [Nextcloud AIO](nextcloud-aio/)
+* [PaperMC server](papermc-server/)
+* [qBittorrent vpn](qbittorrent-vpn/)
+* [SearXNG](searxng/)
+* [TOR bridge](tor-bridge/)
+* [Traefik](traefik/)
+* [Vaultwarden](vaultwarden/)
+* [Website](website/)
+
 ## 🚀 Deployment
 1. Clone the repo:
 ```bash
