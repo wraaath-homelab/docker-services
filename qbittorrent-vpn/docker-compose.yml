@@ -17,7 +17,6 @@ services:
   volumes:
     - /etc/localtime:/etc/localtime:ro
     - ./config:/config
-    - ./theme/qbittorrent/webui:/theme/webui
     - ./data:/data
     - /mnt/truenas-nfs:/truenas
   environment:
