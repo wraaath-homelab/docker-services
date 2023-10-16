@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "mads",
+        "name": "Mads",
+        "user_id": "8266a1b8dd424527b95458352d4a5f9c",
+        "device_trackers": [
+          "device_tracker.kb2003"
+        ]
+      }
+    ]
+  }
+}

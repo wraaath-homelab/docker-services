@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "a4f746ff4bed60051dc3bf437d17ca74"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "8a45ad1f29d31cf27edfc46c1981db5c",
+        "identifiers": [
+          [
+            "sun",
+            "a4f746ff4bed60051dc3bf437d17ca74"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "c8deefbb2353d4b1b1a4c29f4e63632c"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "22cad729496d9dbb0272916d3a4c4dd3",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2b59403c71ceea68f26a74c93cd18213"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2fa0fdf027eaf0c65fabe6076ca23212",
+        "identifiers": [
+          [
+            "mobile_app",
+            "237040ccaa884467"
+          ]
+        ],
+        "manufacturer": "OnePlus",
+        "model": "KB2003",
+        "name_by_user": null,
+        "name": "KB2003",
+        "sw_version": "33",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

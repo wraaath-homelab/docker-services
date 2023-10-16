@@ -1,0 +1,28 @@
+# General
+.env
+
+# traefik/
+acme.json # see traefik/README.md
+
+# qbittorrent-vpn/
+wg0.conf # see qbittorrent-vpn/README.md
+
+# papermc-server/
+/papermc-server/data/*
+# But keep these:
+!/papermc-server/data/eula.txt
+!/papermc-server/data/commands.yml
+!/papermc-server/data/help.yml
+!/papermc-server/data/server.properties
+!/papermc-server/data/version_history.json
+!/papermc-server/data/bukkit.yml
+!/papermc-server/data/permissions.yml
+!/papermc-server/data/spigot.yml
+!/papermc-server/data/versions/
+!/papermc-server/data/plugins/
+
+# homeassistant/
+/homeassistant/config/*
+# But keepa theesa:
+!/homeassistant/config/configuration.yaml
+!/homeassistant/config/automations.yaml

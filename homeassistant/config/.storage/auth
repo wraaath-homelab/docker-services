@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "662c80aaeeda424992734a515acc2107",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "8266a1b8dd424527b95458352d4a5f9c",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "Mads",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "df6d266468e24654b68318c2676a681f",
+        "user_id": "8266a1b8dd424527b95458352d4a5f9c",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "wraaath"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "fef6b568e5b9485b84a1853e6ec02901",
+        "user_id": "662c80aaeeda424992734a515acc2107",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2023-10-15T16:09:12.243703+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "ec79a81f7a8840d909eb268df79cce90834dc51bab051f1126b09a83e6fea272835c5bc0a4e49771dbf939aa6ef40d6a9128f343b60d993c0ef761890af351ad",
+        "jwt_key": "c4dd5e225b5f94ba2c079371d550b1ab68f8bbbe446075593907d0b84275de5dda26d2684a5c59a2a4864265879a901376662bf00790adec755a825b64d33abb",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "credential_id": null,
+        "version": "2023.9.3"
+      },
+      {
+        "id": "32d3fd9025db4408b2b50ee3bc798c3d",
+        "user_id": "8266a1b8dd424527b95458352d4a5f9c",
+        "client_id": "http://192.168.0.101:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2023-10-15T16:10:48.449232+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "f529b9e1287a771423e8d14a81545f5fad559ef33f02c3c9d7e727d81ac465970c03180084ebd2aaf64792083113ec0b5f1835dbca89ff8f06ae0edc3ea6f69c",
+        "jwt_key": "65f3920080ecf30257602de0f262ab8a7b188d0467073ccebccfd094989b92185272a71257ff95c235eb414a59c7a0fbc22e93af4a5211b6f299a5e64fe3c6a1",
+        "last_used_at": "2023-10-15T16:10:48.449328+00:00",
+        "last_used_ip": "192.168.0.62",
+        "credential_id": "df6d266468e24654b68318c2676a681f",
+        "version": "2023.9.3"
+      },
+      {
+        "id": "81749515a0904862b159bc97b309ceb9",
+        "user_id": "8266a1b8dd424527b95458352d4a5f9c",
+        "client_id": "https://home-assistant.io/android",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2023-10-15T16:15:01.961043+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "c049201e59c3dfc0cd8fab9158cb4d530f05ab28e06f7a2d05d8eae889c70cfe70d7080578146f6d47451763368c31b1b454b79dbd9874369a0e55afa1207156",
+        "jwt_key": "faed73176bab5b1197d1b8bdc919c7e441f319382b348d0cfd77942fa2aeb0972db511e1f3f88715533fac6f4154c8a2fb34e73b7700368f7e4a68390b79eece",
+        "last_used_at": "2023-10-15T16:15:01.961156+00:00",
+        "last_used_ip": "192.168.0.87",
+        "credential_id": "df6d266468e24654b68318c2676a681f",
+        "version": "2023.9.3"
+      }
+    ]
+  }
+}
