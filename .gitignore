@@ -1,28 +1,53 @@
 # General
 .env
 
+
 # traefik/
-acme.json # see traefik/README.md
+acme.json
+
+
+# vaultwarden/
+/vaultwarden/data/*
+
 
 # qbittorrent-vpn/
-wg0.conf # see qbittorrent-vpn/README.md
+/qbittorrent-vpn/config/*
+
+!/qbittorrent-vpn/config/perms.txt
+!/qbittorrent-vpn/config/wireguard/wg0.conf.example
+!/qbittorrent-vpn/config/qBittorrent/config/qBittorrent.conf
+
 
 # papermc-server/
 /papermc-server/data/*
-# But keep these:
+
 !/papermc-server/data/eula.txt
 !/papermc-server/data/commands.yml
-!/papermc-server/data/help.yml
 !/papermc-server/data/server.properties
 !/papermc-server/data/version_history.json
 !/papermc-server/data/bukkit.yml
 !/papermc-server/data/permissions.yml
 !/papermc-server/data/spigot.yml
-!/papermc-server/data/versions/
-!/papermc-server/data/plugins/
+
 
 # homeassistant/
 /homeassistant/config/*
-# But keepa theesa:
+
 !/homeassistant/config/configuration.yaml
 !/homeassistant/config/automations.yaml
+
+
+# jdownloader/
+/jdownloader/config/*
+# TODO: add the manual dark theme thingy from Reddit
+
+
+# searxng/
+/searxng/config/*
+# TODO: actually figure out what can be pushed
+
+
+# authelia/
+/authelia/config/*
+
+# TODO: actually figure out what can be pushed
