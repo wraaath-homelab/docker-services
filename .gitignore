@@ -12,6 +12,7 @@ acme.json
 
 # qbittorrent-vpn/
 /qbittorrent-vpn/config/*
+/qbittorrent-vpn/config/qBittorrent/config/categories.json
 
 !/qbittorrent-vpn/config/perms.txt
 !/qbittorrent-vpn/config/wireguard/wg0.conf.example
