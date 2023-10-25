@@ -3,10 +3,10 @@
 
 # 🐳 Docker services
 These are the services and applications running in my Homelab. \
-This mf is very much a work in progress, I am still working on most stuff here.
+This mf is very much a work in progress, so don't judge too hard.
 
 ## 💢 Why Docker?
-Because I, contrary to popular belief, don't *actually* hate myself.
+Because I, contrary to popular belief, don't actually hate myself.
 
 ## 📚 Sections
 * [Authelia](authelia/)
