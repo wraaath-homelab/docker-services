@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  bazarr:
+    image: lscr.io/linuxserver/bazarr:v1.3.1-ls220
+    container_name: bazarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Copenhagen
+    volumes:
+      - ./config:/config
+      - /mnt/truenas-nfs:/truenas
+    ports:
+      - 6767:6767
+    restart: unless-stopped

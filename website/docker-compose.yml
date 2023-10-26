@@ -9,7 +9,7 @@ services:
     ports:
     - '80:80'
     volumes:
-    - ./src:/usr/local/apache2/htdocs
+    - ./data:/usr/local/apache2/htdocs
     labels:
         - traefik.enable=true
         - traefik.docker.network=proxy
