@@ -18,15 +18,15 @@ http:
         - https-redirectscheme
       tls: {}
       service: wgeasy
-    jdownloader:
+    jellyfin:
       entryPoints:
         - "https"
-      rule: "Host(`jdownloader.l.wraaath.com`)"
+      rule: "Host(`jellyfin.l.wraaath.com`)"
       middlewares:
         - default-headers
         - https-redirectscheme
       tls: {}
-      service: jdownloader
+      service: jellyfin
 
 #endregion
 #region services
@@ -46,10 +46,10 @@ http:
         servers:
           - url: "http://192.168.0.126:9999"
         passHostHeader: true
-    jdownloader:
+    jellyfin:
       loadBalancer:
         servers:
-          - url: "http://192.168.0.101:5800"
+          - url: "http://192.168.0.126:8096"
         passHostHeader: true
 
 #endregion
