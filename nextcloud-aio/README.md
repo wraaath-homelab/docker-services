@@ -5,3 +5,10 @@
 
 ## 📜 Instructions
 Coming later
+
+## ❌ Troubleshooting
+
+### Exporting and using contacts
+In my experience, most Android "Contacts"-apps will not be using vCard3, but rather vCard2. \
+So if you export your contacts as a `.vcf`-file you need to convert them to a vCard2 to be able to use them. \
+For that I found [jowave/vcard2to3](https://github.com/jowave/vcard2to3)
