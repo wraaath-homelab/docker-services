@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   cloudflared:
-    image: visibilityspots/cloudflared:v2023.8.2
+    image: visibilityspots/cloudflared:v2023.10.0
     container_name: cloudflared
     ports:
       - "5054:5054/tcp"
