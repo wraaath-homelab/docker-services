@@ -54,4 +54,7 @@ acme.json
 # uptimekuma/
 /uptimekuma/data/*
 
+# wgeasy/
+/wgeasy/config/*
+
 # TODO: actually figure out what can be pushed
