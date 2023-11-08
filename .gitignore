@@ -51,4 +51,7 @@ acme.json
 # authelia/
 /authelia/config/*
 
+# uptimekuma/
+/uptimekuma/data/*
+
 # TODO: actually figure out what can be pushed
