@@ -17,7 +17,7 @@ Because I, contrary to popular belief, don't actually hate myself.
 * [Pihole](pihole/)
 * [qBittorrent VPN](qbittorrent-vpn/)
 * [SearXNG](searxng/)
-* [TOR bridge](tor-bridge/)
+* [Tor Bridge](tor-bridge/)
 * [Traefik](traefik/)
 * [UptimeKuma](uptimekuma/)
 * [Vaultwarden](vaultwarden/)
