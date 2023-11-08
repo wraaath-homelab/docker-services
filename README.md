@@ -10,21 +10,24 @@ Because I, contrary to popular belief, don't actually hate myself.
 
 ## 📚 Sections
 * [Authelia](authelia/)
-* [Home Assistant](homeassistant/)
-* [JDownloader 2](jdownloader/)
+* [HomeAssistant](homeassistant/)
+* [JDownloader](jdownloader/)
 * [Nextcloud AIO](nextcloud-aio/)
-* [PaperMC server](papermc-server/)
-* [qBittorrent vpn](qbittorrent-vpn/)
+* [PaperMC Server](papermc-server/)
+* [Pihole](pihole/)
+* [qBittorrent VPN](qbittorrent-vpn/)
 * [SearXNG](searxng/)
 * [TOR bridge](tor-bridge/)
 * [Traefik](traefik/)
+* [UptimeKuma](uptimekuma/)
 * [Vaultwarden](vaultwarden/)
 * [Website](website/)
+* [WGEasy](wgeasy/)
 
 ## 🚀 Deployment
 1. Clone the repo:
 ```bash
-git clone git@github.com:wraaath-homelab/docker-services.git
+git clone https://github.com/wraaath-homelab/docker-services.git
 ```
 
 2. Edit the `.env`-files accordingly. Do something like:
