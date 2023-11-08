@@ -25,26 +25,24 @@ Because I, contrary to popular belief, don't actually hate myself.
 * [WGEasy](wgeasy/)
 
 ## 🚀 Deployment
-1. Clone the repo:
+1. Make sure you have Docker/docker-compose installed
+Install with your Linux distro's package-manager or head over to [Dockers homepage](https://www.docker.com/get-started/) to install on Windows.
+
+2. Clone the repo:
 ```bash
 git clone https://github.com/wraaath-homelab/docker-services.git
 ```
 
-2. Edit the `.env`-files accordingly. Do something like:
+3. Edit the `.env`-files accordingly. Do something like:
 ```bash
 cp .env.example .env
 vim .env
 ```
 
-3. Deploy the Docker-container from the compose file:
+4. Deploy the Docker-container from the compose file:
 ```bash
 sudo docker-compose up -d
 ```
-
----
-
-### Getting started with Docker
-Install with your Linux distro's package-manager or head over to [Dockers homepage](https://www.docker.com/get-started/) to install on Windows.
 
 ---
 
