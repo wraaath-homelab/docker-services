@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   homeassistant:
-    image: lscr.io/linuxserver/homeassistant:2023.11.1
+    image: lscr.io/linuxserver/homeassistant:2023.11.2
     container_name: homeassistant
     environment:
       - PUID=1000
