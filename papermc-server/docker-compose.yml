@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   minecraft:
-    image: "marctv/minecraft-papermc-server@sha256:50d7c98ca44e238924650d4281ed347391674bcb905d35cdfdc8a2d1bf8c2341"
+    image: "marctv/minecraft-papermc-server@sha256:b212d646f5cc37fe3042a68079aa62de27f0c2d3e311a40a5e6c6e80176e8a9f"
     restart: always
     container_name: "papermc-server"
     environment:
